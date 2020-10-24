@@ -66,8 +66,6 @@ C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\sr
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csprojAssemblyReference.cache
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfoInputs.cache
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.AssemblyInfo.cs
-C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csproj.CoreCompileInputs.cache
-C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cache
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.RazorAssemblyInfo.cs
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.TagHelpers.input.cache
@@ -95,4 +93,8 @@ C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\sr
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp3.1\DevIO.Data.dll
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.csproj.CoreCompileInputs.cache
 C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cs
+C:\Github\desenvolvedor.io\dotnet core\Dominando MVC Core\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\netcoreapp3.1\DevIO.App.MvcApplicationPartsAssemblyInfo.cache

@@ -9,6 +9,8 @@ using DevIO.App.Data;
 using DevIO.Data.Context;
 using DevIO.Business.Interfaces;
 using DevIO.Data.Repository;
+using Microsoft.AspNetCore.Mvc;
+using AutoMapper;
 
 namespace DevIO.App
 {
@@ -34,6 +36,10 @@ namespace DevIO.App
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
 
             services.AddScoped<MeuDbContext>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
