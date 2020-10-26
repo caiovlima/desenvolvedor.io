@@ -1,9 +1,6 @@
-﻿using AppMvcBasica.Models;
+﻿using DevIO.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DevIO.Data.Mappings
 {
@@ -26,7 +23,6 @@ namespace DevIO.Data.Mappings
                 .HasColumnType("varchar(8)");
 
             builder.Property(c => c.Complemento)
-                .IsRequired()
                 .HasColumnType("varchar(250)");
 
             builder.Property(c => c.Bairro)

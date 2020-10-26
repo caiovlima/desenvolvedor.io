@@ -1,17 +1,11 @@
-﻿using AppMvcBasica.Models;
+﻿using DevIO.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DevIO.Data.Mappings
 {
     public class ProdutoMapping : IEntityTypeConfiguration<Produto>
     {
-        //Alternativa correta de mapear (sem data anottations)
-        //Criar um arquivo para cada entidade e implementar o IEntityTypeConfiguration
-        //e Mapear cada propriedade
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
             builder.HasKey(p => p.Id);

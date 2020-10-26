@@ -1,9 +1,7 @@
-﻿using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 
-namespace AppMvcBasica.Models
+namespace DevIO.Business.Models
 {
     public class Fornecedor : Entity
     {
@@ -13,8 +11,7 @@ namespace AppMvcBasica.Models
         public Endereco Endereco { get; set; }
         public bool Ativo { get; set; }
 
-        /* EF Relations (1 Fornecedor => N Produtos) */
+        /* EF Relations */
         public IEnumerable<Produto> Produtos { get; set; }
     }
-
 }

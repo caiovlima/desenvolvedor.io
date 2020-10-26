@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Threading.Tasks;
-using AppMvcBasica.Models;
-using DevIO.Business.Interfaces;
+using DevIO.Business.Intefaces;
+using DevIO.Business.Models;
 using DevIO.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace DevIO.Data.Repository
 {
-    public abstract class FornecedorRepository : Repository<Fornecedor>, IFornecedoreRepository
+    public class FornecedorRepository : Repository<Fornecedor>, IFornecedorRepository
     {
-
         public FornecedorRepository(MeuDbContext context) : base(context)
         {
-
         }
 
         public async Task<Fornecedor> ObterFornecedorEndereco(Guid id)
@@ -27,7 +25,7 @@ namespace DevIO.Data.Repository
             return await Db.Fornecedores.AsNoTracking()
                 .Include(c => c.Produtos)
                 .Include(c => c.Endereco)
-                .FirstOrDefaultAsync(c => c.Id.Equals(id));
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿using AppMvcBasica.Models;
-using AutoMapper;
+﻿using AutoMapper;
 using DevIO.App.ViewModels;
+using DevIO.Business.Models;
 
 namespace DevIO.App.AutoMapper
 {
@@ -8,7 +8,7 @@ namespace DevIO.App.AutoMapper
     {
         public AutoMapperConfig()
         {
-            CreateMap<Fornecedor, FornecedoreViewModel>().ReverseMap();
+            CreateMap<Fornecedor, FornecedorViewModel>().ReverseMap();
             CreateMap<Endereco, EnderecoViewModel>().ReverseMap();
             CreateMap<Produto, ProdutoViewModel>().ReverseMap();
         }
