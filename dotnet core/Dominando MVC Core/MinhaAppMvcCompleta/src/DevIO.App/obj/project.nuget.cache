@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rNWPg8UiP/gJ5xeh4mxrM2Xhnj46fFybN8tuw2UwdOsZ1sLvwKAbj7Fl4hXTXJNw0utIrVEzfePAT1HfDNLKbA==",
+  "dgSpecHash": "TSbhHXmDEiFCoLA5UiTWx/oQR5agEV5V8HYU4qfhnmpDkKBvIZZwn+NlVa8x0BKW+a8VioJX+bj4XWJjOmB4aA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.App\\DevIO.App.csproj",
+  "projectFilePath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

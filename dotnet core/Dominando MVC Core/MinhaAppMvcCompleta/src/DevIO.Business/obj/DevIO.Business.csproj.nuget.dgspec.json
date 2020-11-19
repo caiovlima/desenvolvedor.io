@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj": {}
+    "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caio\\AppData\\Roaming\\NuGet\\NuGet.Config",

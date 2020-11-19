@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zySUKx7Ti2GgzjkHkKHrFQNYBwBHaDepEeG1C9fqeLu/bP7l3ciUD47wQswn/mjFhxPH4Pkz+q8vDs5cmC7bYw==",
+  "dgSpecHash": "y2yuO6/ZHmrVJo9StZllk7zQBm3dkmYfzjOjLGiThDm10rN8SHLzuc/V+GlPYMzIFNl8vzIsz3IOxXZoXmgHOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"

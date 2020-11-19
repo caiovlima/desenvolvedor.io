@@ -4982,11 +4982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectUniqueName": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
       "projectName": "DevIO.Data",
-      "projectPath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectPath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
       "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Data\\obj\\",
+      "outputPath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5002,8 +5002,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
             }
           }
         }

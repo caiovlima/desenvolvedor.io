@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xxo/JxkTWmg+5mXj/rsHNSPs81mMWpi5Mle1FiEVKNkRiEwY36mA2IK+cI+pvbDPnNNDIznZpW8CyEpAdMJJ4w==",
+  "dgSpecHash": "o+DqoGth178u5p3oi6bbn1VfJ3I8aaYVMGvMN+T8YXaIIbcMlongpd+k5bph0x7iQ/F+4J6KzaUp/79zX5LRmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio\\Downloads\\02 -Dominando o ASP.NET MVC Core\\14 - Materiais\\06 - AppCompleta 3.1 - Complexa\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Dominando MVC Core\\MinhaAppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
