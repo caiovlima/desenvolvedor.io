@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OzW/K8EDb2SlOJh4NUDH5khT8q5Z/l3yUd/49HnI0XOgT/+ALHCmYsuT31MenTCMHn6j8u6pHwB6Mhu4gr+2GA==",
+  "success": true,
+  "projectFilePath": "C:\\Github\\desenvolvedor.io\\dotnet core\\Rest API\\MinhaAPICompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\caio\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
