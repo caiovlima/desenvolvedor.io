@@ -10,21 +10,22 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DevIO.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    [Migration("20190503042709_Initial")]
+    [Migration("20201022000853_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
+                .HasAnnotation("ProductVersion", "3.1.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
+            modelBuilder.Entity("AppMvcBasica.Models.Endereco", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Bairro")
                         .IsRequired()
@@ -39,13 +40,15 @@ namespace DevIO.Data.Migrations
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("Complemento")
+                        .IsRequired()
                         .HasColumnType("varchar(250)");
 
                     b.Property<string>("Estado")
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
-                    b.Property<Guid>("FornecedorId");
+                    b.Property<Guid>("FornecedorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Logradouro")
                         .IsRequired()
@@ -63,12 +66,14 @@ namespace DevIO.Data.Migrations
                     b.ToTable("Enderecos");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Fornecedor", b =>
+            modelBuilder.Entity("AppMvcBasica.Models.Fornecedor", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Ativo");
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Documento")
                         .IsRequired()
@@ -78,27 +83,32 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<int>("TipoFornecedor");
+                    b.Property<int>("TipoFornecedor")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Fornecedores");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
+            modelBuilder.Entity("AppMvcBasica.Models.Produto", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("Ativo");
+                    b.Property<bool>("Ativo")
+                        .HasColumnType("bit");
 
-                    b.Property<DateTime>("DataCadastro");
+                    b.Property<DateTime>("DataCdastro")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
                         .IsRequired()
                         .HasColumnType("varchar(1000)");
 
-                    b.Property<Guid>("FornecedorId");
+                    b.Property<Guid>("FornecedorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Imagem")
                         .IsRequired()
@@ -108,7 +118,8 @@ namespace DevIO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 
-                    b.Property<decimal>("Valor");
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -117,18 +128,20 @@ namespace DevIO.Data.Migrations
                     b.ToTable("Produtos");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
+            modelBuilder.Entity("AppMvcBasica.Models.Endereco", b =>
                 {
-                    b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
+                    b.HasOne("AppMvcBasica.Models.Fornecedor", "Fonecedor")
                         .WithOne("Endereco")
-                        .HasForeignKey("DevIO.Business.Models.Endereco", "FornecedorId");
+                        .HasForeignKey("AppMvcBasica.Models.Endereco", "FornecedorId")
+                        .IsRequired();
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
+            modelBuilder.Entity("AppMvcBasica.Models.Produto", b =>
                 {
-                    b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
+                    b.HasOne("AppMvcBasica.Models.Fornecedor", "Fornecedor")
                         .WithMany("Produtos")
-                        .HasForeignKey("FornecedorId");
+                        .HasForeignKey("FornecedorId")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
