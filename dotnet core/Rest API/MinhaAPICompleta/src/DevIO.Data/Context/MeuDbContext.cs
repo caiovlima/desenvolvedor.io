@@ -33,6 +33,7 @@ namespace DevIO.Data.Context
             base.OnModelCreating(modelBuilder);
         }
 
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
