@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DevIO.Business.Intefaces;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,10 @@ namespace DevIO.Api.Controllers
 {
     public class EnderecosController : MainController
     {
+        public EnderecosController(INotificador notificador) : base (notificador)
+        {
+
+        }
 
     }
 }
