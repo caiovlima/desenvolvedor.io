@@ -1,0 +1,36 @@
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Users\caio\Downloads\02 -Dominando o ASP.NET MVC Core\14 - Materiais\06 - AppCompleta 3.1 - Complexa\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Github\desenvolvedor.io\dotnet core\Rest API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csprojAssemblyReference.cache
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+C:\Github\desenvolvedor.io\dotnet_core\Rest_API\MinhaAPICompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
