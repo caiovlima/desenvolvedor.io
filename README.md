@@ -65,8 +65,11 @@
 ## About The Project
 
 Each folder contains a specific topic were i learned:
+* [angular](https://github.com/caiovlima/desenvolvedor.io/tree/master/angular) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"></code> 
+
 * [dotnet_core](https://github.com/caiovlima/desenvolvedor.io/tree/master/dotnet_core) - <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dotnet/dotnet.png"></code> 
 <code><img  height="20"  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code> 
+
 
 
 
@@ -87,6 +90,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * [.Net Core](https://dotnet.microsoft.com/download/dotnet-core)
+* [Angular](https://angular.io)
 * Optional [VSCode](https://code.visualstudio.com/)
 
 
