@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kDKDsI5B31jJWpkF/5BM000H13baFoCJn0q4zpVBl6vfIQ/dJDMuEnGVwQlL19oBSCb2414YlNCuKNj4MjCVqg==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\angular\\AvançadoComAngular\\backend\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\caio\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
