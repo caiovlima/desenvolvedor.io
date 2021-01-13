@@ -7,6 +7,7 @@ import { ValidationMessages, GenericValidator, DisplayMessage } from '../../util
 
 import { CustomValidators } from 'ngx-custom-validators';
 import { fromEvent, merge, Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cadastro',
@@ -28,7 +29,8 @@ export class CadastroComponent implements OnInit {
   displayMessage: DisplayMessage = {};
 
   constructor(private fb: FormBuilder,
-              private contaService: ContaService) {
+    private contaService: ContaService,
+    private router: Router) {
 
     this.validationMessages = {
       email: {
@@ -72,8 +74,25 @@ export class CadastroComponent implements OnInit {
     if (this.cadastroForm.dirty && this.cadastroForm.valid) {
       this.usuario = Object.assign({}, this.usuario, this.cadastroForm.value);
 
-      this.contaService.registrarUsuario(this.usuario);
+      this.contaService.registrarUsuario(this.usuario)
+        .subscribe(
+          sucesso => { this.processarSucesso(sucesso) },
+          falha => { this.processarFalha(falha) }
+        );
     }
+  }
+
+  processarSucesso(response: any) {
+    this.cadastroForm.reset();
+    this.errors = [];
+
+    this.contaService.LocalStorage.salvarDadosLocaisUsuario(response);
+
+    this.router.navigate(['/home'])
+  }
+
+  processarFalha(fail: any) {
+    this.errors = fail.error.erros;
   }
 
 }
