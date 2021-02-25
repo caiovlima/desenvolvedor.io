@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HlJZHZ8XZHJtcbDxwKz9BI//4oKRNWAx6vG4hhe/3XnDqoq59Hc04lWUM8OZwyyVB2jjcbNOf0IczBxSzpRoqg==",
+  "dgSpecHash": "Uq/mdBk/rXjbz+EejG6xDBP7BFuveyVxRU/dqug6B81xRair5cRau/oKDov16loBAC9YbkDHUICv5XK2Zg7VRg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

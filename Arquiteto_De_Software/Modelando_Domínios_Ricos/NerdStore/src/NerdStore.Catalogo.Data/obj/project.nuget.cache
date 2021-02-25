@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1XcSz723YT2kdqjKJvasfuAqGhXueEAQgPQmvBEtPr+gXFNoqodqG15uvES2O3kdAxEKS7IUpy3FoNTOISL2pw==",
+  "dgSpecHash": "/4kX9kk/IimNed7LfDU0E1cvQueyrA60srsbXL3nWvUmtmTp2TnusiA6Os/cTjj8SNxpE6jB7Uu8VINq25mH7A==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

@@ -1,0 +1,17 @@
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csprojAssemblyReference.cache
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.AssemblyInfoInputs.cache
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.AssemblyInfo.cs
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csproj.CoreCompileInputs.cache
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.deps.json
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.runtimeconfig.json
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.runtimeconfig.dev.json
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.dll
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.pdb
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.dll
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.pdb
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csproj.CopyComplete
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.dll
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.pdb
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.genruntimeconfig.cache

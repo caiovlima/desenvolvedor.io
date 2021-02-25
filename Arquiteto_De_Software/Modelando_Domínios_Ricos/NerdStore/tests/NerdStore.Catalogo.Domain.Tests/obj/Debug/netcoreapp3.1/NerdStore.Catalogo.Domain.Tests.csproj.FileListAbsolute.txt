@@ -99,3 +99,4 @@ C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdS
 C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.Tests.dll
 C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.Tests.pdb
 C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.Tests.genruntimeconfig.cache
+C:\GitHub\desenvolvedor.io\Arquiteto_De_Software\Modelando_Domínios_Ricos\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\netcoreapp3.1\MediatR.dll
