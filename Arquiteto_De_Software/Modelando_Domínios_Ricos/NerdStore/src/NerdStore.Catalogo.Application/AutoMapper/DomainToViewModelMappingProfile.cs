@@ -16,3 +16,4 @@ namespace NerdStore.Catalogo.Application.AutoMapper
             CreateMap<Categoria, CategoriaViewModel>();
         }
     }
+}
