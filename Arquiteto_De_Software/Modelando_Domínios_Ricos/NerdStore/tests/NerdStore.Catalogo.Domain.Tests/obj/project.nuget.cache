@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jUaxj58OFqnvBBJFLxpkOdiNRhwMbQpdc14lO32wTmJgNNNR582zviHujjpQkGmUOpimPNB/XGZGqKwj7O5TKg==",
+  "dgSpecHash": "o+MqSGIUp+pVSe5V/t8yRn/18a2QL8cL33iXuHEvUzCFM629qp5B4oUUGuUsQjduIkVHt9mUR0KRTbfxnogmHQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\tests\\NerdStore.Catalogo.Domain.Tests\\NerdStore.Catalogo.Domain.Tests.csproj",
   "expectedPackageFiles": [

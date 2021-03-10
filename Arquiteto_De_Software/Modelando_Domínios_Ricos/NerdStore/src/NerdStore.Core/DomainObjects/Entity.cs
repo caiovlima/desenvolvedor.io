@@ -36,7 +36,7 @@ namespace NerdStore.Core.DomainObjects
         {
             return !(a == b);
         }
-
+        
         public override int GetHashCode()
         {
             return (GetType().GetHashCode() * 907) + Id.GetHashCode();
@@ -45,6 +45,11 @@ namespace NerdStore.Core.DomainObjects
         public override string ToString()
         {
             return $"{GetType().Name} [Id={Id}]";
+        }
+
+        public virtual bool EhValido()
+        {
+            return true;
         }
     }
 }

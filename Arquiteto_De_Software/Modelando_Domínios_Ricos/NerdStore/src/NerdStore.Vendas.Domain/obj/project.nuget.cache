@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gvPPnzG2fzVUjyisvaXoKWYPmvaiVxUtpCWCxtrtUgTlW9Bmv6HA06ytvc1RyTYZPjD+mXJqDKVX9CHzYHQUKw==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
