@@ -41,6 +41,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "fLUENTvALIDATION": {
+              "target": "Package",
+              "version": "[9.5.2, )"
+            },
             "mediatr": {
               "target": "Package",
               "version": "[9.0.0, )"

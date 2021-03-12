@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Mq8JQuWvOBxcdfietDXpMqdQgmIXJoelozaq1sQS6wNzUE0vU2HrIFELcIg2aH24ZEGHif5dryvJ2EyEBDP0gw==",
+  "dgSpecHash": "FtFINHROVqcC/ZMks++aNC2pOHrWJlhZf2aYd0ffwKXAbwdlVc027MWXrttyJ56e2Yf5ydRnInzEF4hBbKwqJQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

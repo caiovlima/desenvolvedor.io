@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MAoamSSiZ3/SGJwfTNxvNMl5VwP3b+OcmdNxtE2o3CI8zyhljGLnJuGAGBQbETXfOxANLT7yFyvr9jcSeM5Pxg==",
+  "dgSpecHash": "u/KTwR/2mx3EnBR1a7a4dAjkwCSeYMizuwETt0ldDptWT2zajnh6giZWpHnofvKk2vnCyki1RD7Ak7hH0KcaRw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caio\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"

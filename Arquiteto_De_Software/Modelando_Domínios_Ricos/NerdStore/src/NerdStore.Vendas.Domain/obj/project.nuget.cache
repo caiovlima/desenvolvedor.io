@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gvPPnzG2fzVUjyisvaXoKWYPmvaiVxUtpCWCxtrtUgTlW9Bmv6HA06ytvc1RyTYZPjD+mXJqDKVX9CHzYHQUKw==",
+  "dgSpecHash": "yJM7eaEFisiT42hdkRxmOEc8UVyF3B9vSGtAiCsbzzjTfyHVOlzQnt2NvmBhffW0fH2URb/xm6heP8rwQjB4nA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\caio\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
     "C:\\Users\\caio\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],
   "logs": []
