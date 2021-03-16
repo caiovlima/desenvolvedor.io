@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mwlKZ7yi/WydR1figKY0DJy2dDj68KF7k2+WrlQ1jLTGe6AUXn2fIvEm53j9vymLod60z3zHq2rrF6OYCT7sjw==",
+  "dgSpecHash": "dYMweSFvW1PxirlR4uNv2g0tKA+C8OvAjTBUAmO8xsAhbsMxvJMZ67UGS5IMMwEaRyjsW/pUm1fvg/Cn+oOoqQ==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\desenvolvedor.io\\Arquiteto_De_Software\\Modelando_Domínios_Ricos\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
   "expectedPackageFiles": [

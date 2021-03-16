@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="fLUENTvALIDATION" Version="9.5.2" />
     <PackageReference Include="mediatr" Version="9.0.0" />
   </ItemGroup>
 
