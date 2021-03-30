@@ -1,8 +1,8 @@
-﻿using NerdStore.Core.DomainObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using FluentValidation.Results;
+using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Vendas.Domain
 {
@@ -36,6 +36,19 @@ namespace NerdStore.Vendas.Domain
         {
             _pedidoItems = new List<PedidoItem>();
         }
+
+        public ValidationResult AplicarVoucher(Voucher voucher)
+        {
+            var validationResult = voucher.ValidarSeAplicavel();
+            if (!validationResult.IsValid) return validationResult;
+
+            Voucher = voucher;
+            VoucherUtilizado = true;
+            CalcularValorPedido();
+
+            return validationResult;
+        }
+
         public void CalcularValorPedido()
         {
             ValorTotal = PedidoItems.Sum(p => p.CalcularValor());

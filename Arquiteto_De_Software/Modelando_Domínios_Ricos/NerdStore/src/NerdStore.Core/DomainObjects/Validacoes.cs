@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace NerdStore.Core.DomainObjects
 {
@@ -50,7 +47,7 @@ namespace NerdStore.Core.DomainObjects
                 throw new DomainException(mensagem);
             }
         }
-
+        
         public static void ValidarSeVazio(string valor, string mensagem)
         {
             if (valor == null || valor.Trim().Length == 0)

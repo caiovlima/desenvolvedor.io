@@ -1,6 +1,5 @@
-﻿using NerdStore.Core.DomainObjects;
-using System;
-using System.Collections.Generic;
+﻿using System;
+using NerdStore.Core.DomainObjects;
 
 namespace NerdStore.Vendas.Domain
 {

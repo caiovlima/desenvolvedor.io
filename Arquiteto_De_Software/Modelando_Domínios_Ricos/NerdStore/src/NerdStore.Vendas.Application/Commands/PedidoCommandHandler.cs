@@ -23,12 +23,12 @@ namespace NerdStore.Vendas.Application.Commands
         IRequestHandler<FinalizarPedidoCommand, bool>,
         IRequestHandler<CancelarProcessamentoPedidoEstornarEstoqueCommand, bool>,
         IRequestHandler<CancelarProcessamentoPedidoCommand, bool>
-
+        
     {
         private readonly IPedidoRepository _pedidoRepository;
         private readonly IMediatorHandler _mediatorHandler;
 
-        public PedidoCommandHandler(IPedidoRepository pedidoRepository,
+        public PedidoCommandHandler(IPedidoRepository pedidoRepository, 
                                     IMediatorHandler mediatorHandler)
         {
             _pedidoRepository = pedidoRepository;
@@ -217,7 +217,7 @@ namespace NerdStore.Vendas.Application.Commands
 
             return await _pedidoRepository.UnitOfWork.Commit();
         }
-
+        
         public async Task<bool> Handle(CancelarProcessamentoPedidoCommand message, CancellationToken cancellationToken)
         {
             var pedido = await _pedidoRepository.ObterPorId(message.PedidoId);

@@ -12,5 +12,4 @@ namespace NerdStore.Core.Messages
             MessageType = GetType().Name;
         }
     }
-
 }
