@@ -26,6 +26,9 @@
       "NerdStore.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "mediatr": "10.0.1"
+        },
         "compile": {
           "bin/placeholder/NerdStore.Core.dll": {}
         },
