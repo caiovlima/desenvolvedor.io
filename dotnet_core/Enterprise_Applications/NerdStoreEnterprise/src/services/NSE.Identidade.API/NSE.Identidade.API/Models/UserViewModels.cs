@@ -2,62 +2,49 @@
 
 namespace NSE.Identidade.API.Models
 {
-    public class NewUser
+    public class UsuarioRegistro
     {
-        [Required(ErrorMessage = "The field {0} is required")]
-        public string Name { get; set; }
 
-        [Required(ErrorMessage = "The field {0} is required")]
-        public string SocialNumber { get; set; }
-
-        [Required(ErrorMessage = "The field {0} is required")]
-        [EmailAddress(ErrorMessage = "Invalid format of field {0}")]
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [EmailAddress(ErrorMessage = "O campo {0} está em formato inválido")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "The field {0} is required")]
-        [StringLength(100, ErrorMessage = "The field {0} should be between {2} and {1} chars", MinimumLength = 6)]
-        public string Password { get; set; }
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
+        public string Senha { get; set; }
 
-        [Compare("Password", ErrorMessage = "The password must match.")]
-        public string ConfirmPassword { get; set; }
+        [Compare("Senha", ErrorMessage = "As senhas não conferem.")]
+        public string SenhaConfirmacao { get; set; }
     }
 
-    public class UserLogin
+    public class UsuarioLogin
     {
-        [Required(ErrorMessage = "The field {0} is required")]
-        [EmailAddress(ErrorMessage = "Invalid format of field {0}")]
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [EmailAddress(ErrorMessage = "O campo {0} está em formato inválido")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "The field {0} is required")]
-        [StringLength(100, ErrorMessage = "The field {0} should be between {2} and {1} chars", MinimumLength = 6)]
-        public string Password { get; set; }
-    }
-
-    public class UserLoginResponse
-    {
-        public string AccessToken { get; set; }
-        public string RefreshToken { get; set; }
-        public double ExpiresIn { get; set; }
-        public UserToken UserToken { get; set; }
-    }
-
-    public class UserToken
-    {
-        public string Id { get; set; }
-        public string Email { get; set; }
-        public IEnumerable<UserClaim> Claims { get; set; }
-    }
-
-    public class UserClaim
-    {
-        public string Value { get; set; }
-        public string Type { get; set; }
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
+        public string Senha { get; set; }
     }
 
     public class UsuarioRespostaLogin
     {
-        public string AccessToken{ get; set; }
+        public string AccessToken { get; set; }
         public double ExpiresIn { get; set; }
-        public UserToken UsuarioToken { get; set; }
+        public UsuarioToken UsuarioToken { get; set; }
+    }
+
+    public class UsuarioToken
+    {
+        public string Id { get; set; }
+        public string Email { get; set; }
+        public IEnumerable<UsuarioClaim> Claims { get; set; }
+    }
+
+    public class UsuarioClaim
+    {
+        public string Value { get; set; }
+        public string Type { get; set; }
     }
 }
