@@ -53,4 +53,11 @@ namespace NSE.Identidade.API.Models
         public string Value { get; set; }
         public string Type { get; set; }
     }
+
+    public class UsuarioRespostaLogin
+    {
+        public string AccessToken{ get; set; }
+        public double ExpiresIn { get; set; }
+        public UserToken UsuarioToken { get; set; }
+    }
 }
