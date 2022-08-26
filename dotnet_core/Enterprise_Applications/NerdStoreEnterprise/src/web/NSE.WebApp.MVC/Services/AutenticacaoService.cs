@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
-using NS.WebApp.MVC.Models;
-using NSE.Identidade.API.Extensions;
 using NSE.WebApp.MVC.Models;
+using NSE.Identidade.API.Extensions;
 
 namespace NSE.WebApp.MVC.Services
 {

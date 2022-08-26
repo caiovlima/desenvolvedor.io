@@ -1,4 +1,4 @@
-﻿using NS.WebApp.MVC.Models;
+﻿using NSE.WebApp.MVC.Models;
 
 namespace NSE.WebApp.MVC.Services
 {

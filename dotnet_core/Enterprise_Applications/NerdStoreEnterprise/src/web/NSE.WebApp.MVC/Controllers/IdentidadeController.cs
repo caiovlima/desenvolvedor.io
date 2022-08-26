@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using NS.WebApp.MVC.Models;
+using NSE.WebApp.MVC.Models;
 using NSE.Identidade.API.Controllers;
 using NSE.WebApp.MVC.Services;
 using System.IdentityModel.Tokens.Jwt;

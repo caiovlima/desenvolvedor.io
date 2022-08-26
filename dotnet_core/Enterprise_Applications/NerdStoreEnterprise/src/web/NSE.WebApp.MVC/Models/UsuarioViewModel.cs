@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using NSE.WebApp.MVC.Models;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace NS.WebApp.MVC.Models
+namespace NSE.WebApp.MVC.Models
 {
     public class UsuarioRegistro
     {

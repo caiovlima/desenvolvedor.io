@@ -1,12 +1,14 @@
-﻿namespace NSE.WebApp.MVC.Configuration
+﻿using NSE.Identidade.API.Extensions;
+
+namespace NSE.WebApp.MVC.Configuration
 {
     public static class WebAppConfig
     {
-        public static void AddMvcConfiguration(this IServiceCollection services)
+        public static void AddMvcConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddControllers();
             // Add services to the container.
             services.AddControllersWithViews();
+            services.Configure<AppSettings>(configuration);
         }
 
         public static void UseMvcConfiguration(this IApplicationBuilder app, IWebHostEnvironment env)
@@ -17,7 +19,8 @@
                 app.UseDeveloperExceptionPage();
             } else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/erro/500");
+                app.UseStatusCodePagesWithRedirects("/erro/{0}");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
