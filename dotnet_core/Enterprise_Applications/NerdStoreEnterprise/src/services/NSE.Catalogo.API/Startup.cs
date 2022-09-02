@@ -1,37 +1,44 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NSE.Catalogo.API.Configuration;
 using NSE.Catalogo.API.Data;
 using NSE.Catalogo.API.Data.Repository;
 using NSE.Catalogo.API.Models;
+using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Catalogo.API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
         public IConfiguration Configuration { get; }
+
+        public Startup(IHostEnvironment hostEnvironment)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(hostEnvironment.ContentRootPath)
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables();
+
+            if (hostEnvironment.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+
+            Configuration = builder.Build();
+        }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CatalogoContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
-            services.AddControllers();
-
-            services.AddScoped<IProdutoRepository, ProdutoRepository>();
-            services.AddScoped<CatalogoContext>();
+            services.AddApiConfiguration(Configuration);
+            services.AddJWTConfiguration(Configuration);
+            services.AddSwaggerConfiguration();
+            services.RegisterServices();
         }
 
-        public void Configure(WebApplication app, IWebHostEnvironment environment)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment environment)
         {
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-            app.MapControllers();
+            app.UseSwaggerConfiguration();
+            app.UseApiConfiguration(environment);
         }
     }
 }
