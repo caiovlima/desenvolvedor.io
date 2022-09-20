@@ -1,4 +1,5 @@
-﻿using Refit;
+﻿using Polly.CircuitBreaker;
+using Refit;
 using System.Net;
 
 namespace NSE.WebApp.MVC.Extensions
@@ -30,10 +31,10 @@ namespace NSE.WebApp.MVC.Extensions
             {
                 HandleRequestExceptionAsync(httpContext, ex.StatusCode);
             }
-            //catch (BrokenCircuitException)
-            //{
-            //    HandleCircuitBreakerExceptionASyunc(httpContext);
-            //}
+            catch (BrokenCircuitException)
+            {
+                HandleCircuitBreakerExceptionASyunc(httpContext);
+            }
         }
 
         private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode statusCode)
